@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
-gem "test-unit"
-gem "guard"
-gem "guard-test"
-gem "guard-shell"
+group :test do
+  gem "test-unit"
+  gem "guard"
+  gem "guard-test"
+  gem "guard-shell"
+  gem "redgreen"
+end
 
-# gem "rails"

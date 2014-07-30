@@ -1,22 +1,11 @@
 require 'test/unit'
+require 'redgreen'
 require File.expand_path('../lib/conversor_de_numero_romano',
                          File.dirname(__FILE__))
 
 class ConversorDeNumeroRomanoTest < Test::Unit::TestCase
   def teste_deve_entender_o_simbolo_I
     atribuicao 'I', 1
-  end
-
-  def teste_deve_entender_o_simbolo_V
-    atribuicao 'V', 5
-  end
-
-  def teste_deve_entender_o_simbolo_X
-    atribuicao 'X', 10
-  end
-
-  def teste_deve_entender_o_simbolo_L
-    atribuicao 'L', 50
   end
 
   def teste_deve_entender_dois_simbolos_como_II
