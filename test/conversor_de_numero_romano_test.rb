@@ -30,7 +30,7 @@ class ConversorDeNumeroRomanoTest < Test::Unit::TestCase
 
   private
 
-  def atribuicao numero_romano, numero_arabico
+  def atribuicao(numero_romano, numero_arabico)
     romano = ConversorDeNumeroRomano.new
     numero = romano.converte numero_romano
     assert_equal numero_arabico, numero
