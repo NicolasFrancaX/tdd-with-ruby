@@ -2,8 +2,6 @@ require 'test/unit'
 require 'redgreen'
 require File.expand_path('../lib/calculadora_de_salario',
                          File.dirname(__FILE__))
-require File.expand_path('../lib/funcionario',
-                         File.dirname(__FILE__))
 
 class CalculadoraDeSalarioTest < Test::Unit::TestCase
   def teste_deve_calcular_salario_para_desenvolvedores_com_salario_abaixo_do_limite

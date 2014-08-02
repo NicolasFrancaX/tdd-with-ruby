@@ -1,3 +1,5 @@
+require File.expand_path('funcionario', File.dirname(__FILE__))
+
 class CalculadoraDeSalario
   def calcula_salario funcionario
     case funcionario.cargo

@@ -1,3 +1,5 @@
+require File.expand_path('item', File.dirname(__FILE__))
+
 class CarrinhoDeCompras
   attr_reader :itens
 
