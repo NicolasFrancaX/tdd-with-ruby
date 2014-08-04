@@ -1,7 +1,21 @@
 module Cargo
-  DESENVOLVEDOR = 0
-  DBA = 1
-  TESTADOR = 2
+  DESENVOLVEDOR = {
+    porcentagem_base: 0.9,
+    porcentagem_limite: 0.8,
+    limite: 3000
+  }
+
+  DBA = {
+    porcentagem_base: 0.85,
+    porcentagem_limite: 0.75,
+    limite: 2500
+  }
+
+  TESTADOR = {
+    porcentagem_base: 0.85,
+    porcentagem_limite: 0.75,
+    limite: 2500
+  }
 end
 
 class Funcionario
